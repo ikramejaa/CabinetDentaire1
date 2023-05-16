@@ -1,0 +1,89 @@
+.container-home{
+    background-color: transparent;
+    color: #023047;
+    padding: 20px;
+}
+.body-home {
+    size: cover;
+    height: 100vh;
+    background-image: url('../assets/photoHome.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  .table-home {
+    background-color: #FFFFFF;
+    color: #023047;
+    width: 80%;
+    border-collapse: collapse;
+    margin: 50px auto; /* Ajouter une marge supérieure et inférieure pour centrer verticalement */
+    margin-left: 50px auto;
+  }
+  
+  .table-home th,
+  .table-home td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table-home th {
+    font-weight: bold;
+    background-color: #FFFFFF;
+  }
+  
+.view-home,
+.edit-home,
+.button-home {
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.view-home {
+  background-color: #023047;
+}
+
+.edit-home {
+  background-color: #8ECAE6;
+  margin-left: 10px;
+}
+
+.button-home {
+  background-color: #FB8500;
+  border: none;
+  margin-left: 10px;
+}
+
+.view-home:before {
+  content: "\1F50D"; /* icône de loupe */
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.edit-home:before {
+  content: "\270F"; /* icône de stylo */
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.button-home:before {
+  content: "\1F5D1"; /* icône de poubelle */
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.view-home:hover,
+.edit-home:hover,
+.button-home:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button-home:active {
+  transform: translateY(0);
+  box-shadow: none;
+}

@@ -1,0 +1,25 @@
+.container-edit.container{
+    font-family: Arial, sans-serif;
+    size: cover;
+    height: 100vh;
+    background-image: url('../assets/photoFormulaire.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: -20px;
+  
+}
+.div-edit{
+    background-color: white;
+}
+.form-label{
+    display: block;
+    margin-bottom: 10px;
+    color: #023047;
+    font-weight: bold;
+    margin: 0px 0px 10px;
+    padding-left: 0px;
+    text-align: left;
+    padding-top:10px;
+
+}

@@ -1,0 +1,28 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "nom": "jaa",
+      "prenom": "ikrame",
+      "email": "jaaikrame5@gmail.com",
+      "mobile": "0987654321",
+      "cne": "0707187228",
+      "sexe": "0707187228",
+      "dateNaissance": "0707187228",
+      "assurance": "0707187228",
+      "maladies": "0707187228"
+    },
+    {
+      "nom": "hamoudi",
+      "prenom": "hafssa",
+      "email": "has@gmail.com",
+      "mobile": "0987654321",
+      "cne": "R136495923",
+      "sexe": "F",
+      "dateNaissance": "2000-10-10",
+      "assurance": "cnss",
+      "maladies": "none",
+      "id": 2
+    }
+  ]
+}
