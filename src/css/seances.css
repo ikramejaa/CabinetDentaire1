@@ -1,0 +1,100 @@
+/* Set header styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  h2 {
+    font-size: 32px;
+    color: #FB8500;
+    margin: 0;
+  }
+  
+  .add-button {
+    text-decoration: none;
+    font-size: 32px;
+    background-color: #FB8500;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  /* Set table styles */
+  .table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Set header cell styles */
+  thead th {
+    background-color: #219EBC;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid rgba(255, 183, 3, 1);
+    }
+  
+  .seance-header {
+    width: 20%;
+  }
+  
+  .montant-header {
+    width: 30%;
+  }
+  
+  .date-header {
+    width: 30%;
+  }
+  
+  .actions-header {
+    width: 20%;
+  }
+  
+  /* Set table cell styles */
+  tbody td {
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .actions-cell {
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .actions-button {
+    text-decoration: none;
+    background-color: #023047;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+  }
+  
+  
