@@ -1,0 +1,17 @@
+.navbar-container {
+    background-color: #023047;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* added this to center the label */
+    padding: 10px 20px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+.navbar-container-text{
+    font-size: 24px; /* increased font size */
+    font-weight: bold; /* added bold font weight */
+    color: white; /* changed font color to white */
+  }

@@ -1,0 +1,14 @@
+.sidebar {
+    background-color: #8ECAE6;
+    color: white;
+    width: 200px;
+    padding: 20px;
+  }
+  
+  .sidebar-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  

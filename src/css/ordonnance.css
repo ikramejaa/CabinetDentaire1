@@ -1,0 +1,89 @@
+h4 {
+  font-size: 48px;
+  color: #ffb703;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.informations-body-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.informations-home {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.informations-table-home {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #8ecae6;
+}
+
+.informations-table-home th,
+.informations-table-home td {
+  padding: 10px;
+  text-align: center;
+}
+
+.informations-table-home th {
+  background-color: #023047;
+  color: #fff;
+}
+
+.informations-table-home td {
+  background-color: #fff;
+}
+
+.medecintitle{
+  font-size: 48px;
+  color: #ffb703;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+.medecin-container {
+  padding: 20px;
+}
+
+.table-home {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #8ecae6;
+}
+
+.table-home th,
+.table-home td {
+  padding: 10px;
+  text-align: center;
+}
+
+.table-home th {
+  background-color: #023047;
+  color: #fff;
+}
+
+.table-home td {
+  background-color: #fff;
+}
+
+.ordonnance {
+  color: #f88500;
+}
+
+.ordonnance i {
+  font-size: 20px;
+}
+
+  

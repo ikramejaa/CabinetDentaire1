@@ -1,0 +1,44 @@
+.medecintitle{
+    font-size: 48px;
+    color: #ffb703;
+    margin: 0;
+    text-align: center;
+    position: relative;
+  }
+  
+ 
+
+  .medecin-container {
+    padding: 20px;
+  }
+  
+  .table-home {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #8ecae6;
+  }
+  
+  .table-home th,
+  .table-home td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table-home th {
+    background-color: #023047;
+    color: #fff;
+  }
+  
+  .table-home td {
+    background-color: #fff;
+  }
+  
+  .ordonnance {
+    color: #f88500;
+  }
+  
+  .ordonnance i {
+    font-size: 20px;
+  }
+  
+  

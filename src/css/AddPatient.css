@@ -1,0 +1,70 @@
+/* Apply a blue background to the page */
+body.add-patient {
+  background-color: #8ecae6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the container to take up the full width and height */
+.container-add {
+  font-family: Arial, sans-serif;
+  background-color: #8ecae6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.add-form {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Increase the width of form inputs */
+.form-control {
+  width: 100%;
+}
+
+/* Style the form labels */
+.form-label {
+  color: #023047;
+  font-weight: bold;
+}
+
+/* Style the submit button */
+.submit-button {
+  background-color: #ffb703;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #fb8500;
+}
+
+/* Style the cancel button */
+.cancel-button {
+  background-color: #ffffff;
+  color: #219ebc;
+  border: 2px solid #219ebc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.cancel-button:hover {
+  background-color: #219ebc;
+  color: white;
+}
